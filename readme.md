@@ -19,10 +19,10 @@ ClypInstaller is a utility designed to simplify the installation and uninstallat
 
 ### Windows
 
-1. Install Nuitka:
+1. Install Nuitka and Inquirer:
 
    ```powershell
-   pip install nuitka
+   pip install nuitka inquirer
    ```
 
 2. Run the build script:
@@ -32,9 +32,9 @@ ClypInstaller is a utility designed to simplify the installation and uninstallat
    This will generate an executable from `install.py`.
 
 ### Linux/macOS
-1. Install Nuitka:
+1. Install Nuitka and Inquirer:
    ```sh
-   pip install nuitka
+   pip install nuitka inquirer
    ```
 2. Run the build script:
    ```sh
@@ -61,10 +61,6 @@ After building, distribute the generated executable. Users can run it to install
   ```sh
   ./install.exe --silent
   ```
-
-## For Package Managers (e.g., WinGet)
-- Use the built executable as the installer in your WinGet manifest.
-- The script ensures all dependencies are handled and provides a user-friendly installation experience.
 
 ## License
 MIT License
